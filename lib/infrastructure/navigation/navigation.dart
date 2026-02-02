@@ -31,5 +31,15 @@ class Nav {
       page: () => const HomeScreen(),
       binding: HomeControllerBinding(),
     ),
+    GetPage(
+      name: Routes.PLAYER,
+      page: () => const PlayerScreen(),
+      binding: PlayerControllerBinding(),
+    ),
+    GetPage(
+      name: Routes.MEDIA_LIBRARY,
+      page: () => const MediaLibraryScreen(),
+      binding: MediaLibraryControllerBinding(),
+    ),
   ];
 }
