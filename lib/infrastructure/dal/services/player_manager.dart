@@ -88,6 +88,7 @@ class PlayerManager extends GetxController {
 
     await _mainPlayer.open(media);
     if (play) {
+      //test
       await _mainPlayer.play();
     }
   }
